@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServletResponse;
 public class WelcomeServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		resp.getWriter().append("Welcome to CRM Application.");
+		resp.getWriter().append("Welcome to Java 14 CRM Application.");
+		resp.getWriter().append("This project has been published on github.");
 	}
+	
 }
