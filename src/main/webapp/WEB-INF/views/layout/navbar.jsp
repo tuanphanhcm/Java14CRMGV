@@ -13,7 +13,7 @@
                 <ul class="nav navbar-nav flex">
                     <li class="nav-item">
                         <a class="nav-link active" href="dashboard.html">
-                            Home</a>
+                            Dashboard</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
@@ -24,7 +24,7 @@
                                 Manage Project
                             </a>
                             <a class="dropdown-item" href="#">
-                                Project Create Project
+                                Create Project
                             </a>
                         </div>
                     </li>
