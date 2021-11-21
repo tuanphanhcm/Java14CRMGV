@@ -19,7 +19,7 @@ create table crm_status(
 create table crm_user(
 	id 				int auto_increment,
     name 			varchar(255) not null,
-    email 			varchar(100) not null,
+    email 			varchar(100) not null unique,
     password 		varchar(255) not null,
     phone 			varchar(36),
     address 		varchar(255),
